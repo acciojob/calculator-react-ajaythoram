@@ -24,28 +24,28 @@ const Cal = () => {
       }
  }
   return (
-    <div id="container">
+    <div id="container" className="calculator">
       <div id="input">
         <input type="text" value={str} onChange={handleInputChange} />
       </div>
       <div id="button">
-        <button onClick={()=> handleCbutton()}>C</button>
-        <button onClick={() => handleButtonClick("/")}>/</button>
-        <button onClick={() => handleButtonClick("*")}>*</button>
-        <button onClick={() => handleButtonClick("-")}>-</button>
-        <button onClick={() => handleButtonClick("7")}>7</button>
-        <button onClick={() => handleButtonClick("8")}>8</button>
-        <button onClick={() => handleButtonClick("9")}>9</button>
-        <button onClick={() => handleButtonClick("+")}>+</button>
-        <button onClick={() => handleButtonClick("4")}>4</button>
-        <button onClick={() => handleButtonClick("5")}>5</button>
-        <button onClick={() => handleButtonClick("6")}>6</button>
-        <button onClick={()=> handelButtonCal()}>=</button>
-        <button onClick={() => handleButtonClick("1")}>1</button>
-        <button onClick={() => handleButtonClick("2")}>2</button>
-        <button onClick={() => handleButtonClick("3")}>3</button>
-        <button onClick={() => handleButtonClick("0")}>0</button>
-        <button onClick={() => handleButtonClick(".")}>.</button>
+        <button id="btn1" onClick={()=> handleCbutton()}>C</button>
+        <button id="btn2" onClick={() => handleButtonClick("/")}>/</button>
+        <button id="btn3" onClick={() => handleButtonClick("*")}>*</button>
+        <button id="btn4" onClick={() => handleButtonClick("-")}>-</button>
+        <button id="btn5" onClick={() => handleButtonClick("7")}>7</button>
+        <button id="btn6" onClick={() => handleButtonClick("8")}>8</button>
+        <button id="btn7" onClick={() => handleButtonClick("9")}>9</button>
+        <button id="btn8" onClick={() => handleButtonClick("+")}>+</button>
+        <button id="btn9" onClick={() => handleButtonClick("4")}>4</button>
+        <button id="btn10" onClick={() => handleButtonClick("5")}>5</button>
+        <button id="btn11" onClick={() => handleButtonClick("6")}>6</button>
+        <button id="btn12" onClick={()=> handelButtonCal()}>=</button>
+        <button id="btn13" onClick={() => handleButtonClick("1")}>1</button>
+        <button id="btn14" onClick={() => handleButtonClick("2")}>2</button>
+        <button id="btn15" onClick={() => handleButtonClick("3")}>3</button>
+        <button id="btn16" onClick={() => handleButtonClick("0")}>0</button>
+        <button id="btn17" onClick={() => handleButtonClick(".")}>.</button>
       </div>
     </div>
   );
